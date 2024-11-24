@@ -13,7 +13,7 @@ import app
 
 __author__ = 'Colour Developers'
 __copyright__ = 'Copyright (C) 2020-2021 - Colour Developers'
-__license__ = 'New BSD License - https://opensource.org/licenses/BSD-3-Clause'
+__license__ = 'BSD-3-Clause - https://opensource.org/licenses/BSD-3-Clause'
 __maintainer__ = 'Colour Developers'
 __email__ = 'colour-developers@colour-science.org'
 __status__ = 'Production'
@@ -33,7 +33,7 @@ def clean(ctx, bytecode=False):
     Parameters
     ----------
     bytecode : bool, optional
-        Whether to clean the bytecode files, e.g. *.pyc* files.
+        Whether to clean the bytecode files, e.g., *.pyc* files.
 
     Returns
     -------
