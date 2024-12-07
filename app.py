@@ -63,8 +63,9 @@ def single_sd_colour_rendition_report():
     sd = sds[list(sds.keys())[0]]
     if sd.shape.interval not in [1, 5, 10, 20]:
         sd = sd.align(
-            colour.SpectralShape(
-                start=sd.shape.start, end=sd.shape.end, interval=1))
+            colour.SpectralShape(start=sd.shape.start,
+                                 end=sd.shape.end,
+                                 interval=1))
 
     figure, _axes = colour.plotting.plot_single_sd_colour_rendition_report(
         sd,
